@@ -49,10 +49,12 @@ int main(void){
     while (true){
         printf("Water outside is  ");
         if (o0 == 0){
-            red();
+            system("clear");
+            red(); 
             printf("Not Present\n");
             OFF();
         } else{
+            system("clear");      
             blue();
             printf("Present\n");
             ON();
